@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="697.0" prefWidth="572.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label layoutX="29.0" layoutY="35.0" prefHeight="37.0" prefWidth="87.0" text="Course" />
+      <ComboBox layoutX="29.0" layoutY="72.0" prefHeight="49.0" prefWidth="170.0" />
+      <Label layoutX="357.0" layoutY="35.0" prefHeight="37.0" prefWidth="148.0" text="Assignment" />
+      <ComboBox layoutX="346.0" layoutY="71.0" prefHeight="51.0" prefWidth="170.0" />
+      <Label layoutX="29.0" layoutY="146.0" prefHeight="37.0" prefWidth="231.0" text="Current course score" />
+      <TextField layoutX="65.0" layoutY="191.0" prefHeight="51.0" prefWidth="140.0" />
+      <Label layoutX="294.0" layoutY="146.0" prefHeight="37.0" prefWidth="251.0" text="Projected course score" />
+      <TextField layoutX="331.0" layoutY="191.0" prefHeight="51.0" prefWidth="140.0" />
+      <Label layoutX="104.0" layoutY="273.0" text="projected assignment grade" />
+      <TextField layoutX="199.0" layoutY="323.0" prefHeight="51.0" prefWidth="140.0" />
+      <Button layoutX="232.0" layoutY="430.0" mnemonicParsing="false" text="Run" />
+   </children>
+</AnchorPane>

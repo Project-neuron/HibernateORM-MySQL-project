@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="710.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="34.0" layoutY="85.0" spacing="50.0">
+         <children>
+            <VBox layoutX="34.0" layoutY="93.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="93.0" text="Course" />
+                  <ComboBox layoutX="34.0" layoutY="128.0" prefHeight="51.0" prefWidth="216.0" />
+                  <Label layoutX="34.0" layoutY="201.0" text="Due Date">
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <DatePicker layoutX="34.0" layoutY="243.0" prefHeight="51.0" prefWidth="216.0" />
+               </children>
+            </VBox>
+            <VBox layoutX="295.0" layoutY="85.0" prefHeight="202.0" prefWidth="206.0">
+               <children>
+                  <Label layoutX="299.0" layoutY="85.0" text="Assignment type" />
+                  <ComboBox layoutX="295.0" layoutY="128.0" prefHeight="51.0" prefWidth="202.0" />
+                  <Label layoutX="295.0" layoutY="201.0" text="Assigned Date">
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <DatePicker layoutX="295.0" layoutY="243.0" prefHeight="51.0" prefWidth="202.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </DatePicker>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Label layoutX="237.0" layoutY="38.0" />
+      <Label layoutX="557.0" layoutY="85.0" />
+      <Label layoutX="34.0" layoutY="28.0" text="Assignment name" />
+      <TextField layoutX="266.0" layoutY="20.0" prefHeight="51.0" prefWidth="251.0" />
+      <TextField layoutX="41.0" layoutY="429.0" prefHeight="267.0" prefWidth="472.0" />
+      <Label layoutX="41.0" layoutY="378.0" text="Assignment discritption" />
+      <Label layoutX="97.0" layoutY="320.0" text="Grade" />
+      <TextField layoutX="202.0" layoutY="312.0" prefHeight="51.0" prefWidth="190.0" promptText="Out of 100%" />
+   </children>
+</AnchorPane>
